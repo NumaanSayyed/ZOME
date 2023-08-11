@@ -9,9 +9,9 @@ import { Link } from "react-router-dom";
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                            <a href="javascript:void(0)">
-                                <h2 className="text-2xl font-bold">X Y
-                                ZOME</h2>
+                            <a href="#" className="flex items-center">
+                                <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="ZOME Logo" />
+                                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">X_Y_ZOME</span>
                             </a>
                             <div className="md:hidden">
                                 <button
@@ -56,21 +56,19 @@ import { Link } from "react-router-dom";
                             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
                                 }`}
                         >
-                          
-                                <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                                    <li className="text-gray-600 hover:text-blue-600">
-                                        <Link to="/">Home</Link>
-                                    </li>
-                                    <li className="text-gray-600 hover:text-blue-600">
-                                        <Link to="/about">About</Link>
-                                    </li>
-                                    <li className="text-gray-600 hover:text-blue-600">
-                                        <Link to="/gallery">Gallery</Link>
-                                    </li>
-                                    <li className="text-gray-600 hover:text-blue-600">
-                                        <Link to="/contact">Contact</Link>
-                                    </li>
-                                </ul>
+                            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                                <li className="text-gray-600 transform transition hover:text-blue-600 hover:font-bold hover:scale-105">
+                                    <Link to="/">Home</Link>
+                                </li>
+                                <li className="text-gray-600 transform transition hover:text-blue-600 hover:font-bold hover:scale-105">
+                                    <Link to="/gallery">Shop</Link>
+                                </li>
+                                <li className="text-gray-600 transform transition hover:text-blue-600 hover:font-bold hover:scale-105">
+                                    <Link to="/contact">Contact</Link>
+                                </li>
+                            </ul>
+
+
                                 
 
                         </div>
