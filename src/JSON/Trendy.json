@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name": "Trendy Tee",
+        "color": "BLUE",
+        "price": 100,
+        "imageUrl": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+        "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
+        "brand": "X Y ZOME"
+    },
+    {
+        "id": 2,
+        "name": "Trendy Tee",
+        "color": "BLUE",
+        "price": 23,
+        "imageUrl": "https://i.postimg.cc/TwKVhnsX/71d-FMe8x5g-L-AC-UY1100.jpg",
+        "brand": "X Y ZOME"
+    }
+]

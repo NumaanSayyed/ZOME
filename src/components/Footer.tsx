@@ -1,5 +1,14 @@
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
+function bottomToTop() {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
 
+}
 function Footer() {
+    useEffect(() => {
+        // 👇️ scroll to top on page load
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    }, []);
     return (
         <>
             <footer className="relative bg-blueGray-200 pt-8 pb-6">
@@ -11,11 +20,8 @@ function Footer() {
                                 Find us on any of these platforms,our team will respond you as soon as possible.
                             </h5>
                             <div className="mt-6 lg:mb-0 mb-6">
-                                <a href="https://twitter.com">
-                                    <button className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                                        <i className="fab fa-twitter"></i></button></a>
-
-                                <a href="https://facebook.com">
+                             
+                                <a href="https://www.facebook.com/xyzome03?mibextid=ZbWKwL">
                                     <button className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
                                         <i className="fab fa-facebook-square"></i></button></a>
 
@@ -23,44 +29,38 @@ function Footer() {
                                     <button className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
                                         <i className="fab fa-instagram"></i></button></a>
 
-                                <a href="https://github.com">
+                                <a href="https://youtube.com/@X_Y_ZOME">
                                     <button className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                                        <i className="fab fa-github"></i></button> </a>
+                                        <i className="fab fa-youtube"></i></button> </a>
                             </div>
                         </div>
                         <div className="w-full lg:w-6/12 px-4">
                             <div className="flex flex-wrap items-top mb-6">
                                 <div className="w-full lg:w-4/12 px-4 ml-auto">
-                                    <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+                                    <span className="block uppercase text-blueGray-500 text-sm font-bold mb-2">Useful Links</span>
                                     <ul className="list-unstyled">
                                         <li>
-                                            <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">About Us</a>
+                                            <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" to={'/'} onClick={bottomToTop}>Home</Link>
                                         </li>
                                         <li>
-                                            <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Blog</a>
+                                            <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" to={'/gallery'} onClick={bottomToTop}>Gallery</Link>
                                         </li>
-                                        <li>
-                                            <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Github</a>
-                                        </li>
-                                        <li>
-                                            <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Free Products</a>
-                                        </li>
+                                     
                                     </ul>
                                 </div>
                                 <div className="w-full lg:w-4/12 px-4">
-                                    <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+                                    <span className="block uppercase text-blueGray-500 text-sm font-bold mb-2">Other Resources</span>
                                     <ul className="list-unstyled">
+                                    
                                         <li>
-                                            <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">MIT License</a>
+                                            <Link to='/terms' className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" onClick={bottomToTop}>Terms & Condition</Link>
                                         </li>
                                         <li>
-                                            <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Terms &amp; Conditions</a>
+                                            <Link to='/PrivacyPolicy' className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" onClick={bottomToTop}>Privacy Policy</Link>
                                         </li>
                                         <li>
-                                            <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Privacy Policy</a>
-                                        </li>
-                                        <li>
-                                            <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Contact Us</a>
+                                            <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" to={'/contact'}
+                                            onClick={bottomToTop}>Contact Us</Link>
                                         </li>
                                     </ul>
                                 </div>

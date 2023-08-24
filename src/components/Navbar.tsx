@@ -1,18 +1,33 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
  function App() {
-    const [navbar, setNavbar] = useState(false);
+     const [navbar, setNavbar] = useState(false);
+
+   
+
+     // Function to close the navbar
+     const closeNavbar = () => {
+         setNavbar(false);
+     };
 
     return (
         <>
-            <nav className="w-full bg-white shadow">
+            <nav id="nav" className="w-full bg-white shadow">
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                            <a href="#" className="flex items-center">
-                                <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="ZOME Logo" />
-                                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">X_Y_ZOME</span>
-                            </a>
+                          
+                            <div className="mb-2 sm:mb-0 flex flex-row
+  ">
+                                <div className="h-10 w-10 self-center mr-2">
+                                    <img className="h-10 w-10 self-center" src="https://i.postimg.cc/sXj4vNg9/Screenshot-2023-08-21-224300.png" />
+                                </div>
+                                <div>
+                                    <a href="/" className="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">X Y ZOME</a><br/>
+                                    <span className="text-xs text-grey-dark">Threads of Trendy Expression</span>
+                                </div>
+                            </div>
+
                             <div className="md:hidden">
                                 <button
                                     className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -58,19 +73,15 @@ import { Link } from "react-router-dom";
                         >
                             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                                 <li className="text-gray-600 transform transition hover:text-blue-600 hover:font-bold hover:scale-105">
-                                    <Link to="/">Home</Link>
+                                    <Link to="/" onClick={closeNavbar}>Home</Link>
                                 </li>
                                 <li className="text-gray-600 transform transition hover:text-blue-600 hover:font-bold hover:scale-105">
-                                    <Link to="/gallery">Shop</Link>
+                                    <Link to="/gallery" onClick={closeNavbar}>Shop</Link>
                                 </li>
                                 <li className="text-gray-600 transform transition hover:text-blue-600 hover:font-bold hover:scale-105">
-                                    <Link to="/contact">Contact</Link>
+                                    <Link to="/contact" onClick={closeNavbar}>Contact</Link>
                                 </li>
                             </ul>
-
-
-                                
-
                         </div>
                     </div>
                 </div>
@@ -82,3 +93,5 @@ import { Link } from "react-router-dom";
 }
 
 export default App;
+
+
