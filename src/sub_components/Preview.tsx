@@ -28,7 +28,7 @@ function Preview() {
 
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">{from.brand}</h2>
-              <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">THE CATEOGY </h1>
+              <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">Elevate Your Style </h1>
               <div className="flex mb-4">
                 <span className="flex items-center">
                   <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
@@ -66,7 +66,11 @@ function Preview() {
                   </a> */}
                 </span>
               </div>
-              <p className="leading-relaxed">{from.desc}</p>
+              <p className="leading-relaxed">{from.desc.name}</p>
+              <p className="leading-relaxed">Fabric : {from.desc.fabric}</p>
+              <p className="leading-relaxed">Sleeve : {from.desc.sleeve_length}</p>
+              <p className="leading-relaxed">Net Quantity : {from.desc.net_quantity}</p>
+              <p className="leading-relaxed">Size : {from.desc.size.join(', ')}</p>
             
               <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
 </div>

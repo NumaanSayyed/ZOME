@@ -1,38 +1,44 @@
 [
-  {
-    "id": 1,
-    "name": "Oversize",
-    "color": "BLUE",
-    "price": 45,
-    "imageUrl": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
-    "brand": "X Y ZOME"
+ {
+  "id": 1,
+  "name": "Oversize",
+  "color": "BLUE",
+  "price": 250,
+  "imageUrl": "https://i.postimg.cc/k4tz66xM/Screenshot-20230824-150750-Instagram.jpg",
+  "desc": {
+    "name": "Men's Half T-shirt Cotton Blend (Pink And Royalblue) Casual Wear Striped T-shirts Combo Pack Of 2",
+    "fabric": "Cotton Blend",
+    "sleeve_length": "Short Sleeves",
+    "net_quantity": 2,
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
-  {
-    "id": 2,
-    "name": "Oversize",
-    "color": "BLUE",
-    "price": 23,
-    "imageUrl": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
-    "brand": "X Y ZOME"
+  "brand": "X Y ZOME"
+},
+ 
+ {
+  "id": 2,
+  "name": "Oversize",
+  "color": "BLUE",
+  "price": 250,
+  "imageUrl": "https://i.postimg.cc/k4tz66xM/Screenshot-20230824-150750-Instagram.jpg",
+  "desc": {
+    "name": "Men's Half T-shirt Cotton Blend (Pink And Royalblue) Casual Wear Striped T-shirts Combo Pack Of 2",
+    "fabric": "Cotton Blend",
+    "sleeve_length": "Short Sleeves",
+    "net_quantity": 2,
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
-  {
-    "id": 3,
-    "name": "Oversize",
-    "color": "BLUE",
-    "price": 23,
-    "imageUrl": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
-    "brand": "X Y ZOME"
-  },
-  {
-    "id": 4,
-    "name": "Oversize",
-    "color": "BLUE",
-    "price": 23,
-    "imageUrl": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
-    "brand": "X Y ZOME"
-  }
+  "brand": "X Y ZOME"
+}
+ 
 ]

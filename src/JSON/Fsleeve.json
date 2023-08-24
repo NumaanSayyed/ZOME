@@ -2,18 +2,37 @@
     {
         "id": 1,
         "name": "Full Sleeve Tee",
-        "color": "BLUE",
-        "price": 100,
-        "imageUrl": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+        "color": "Black",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/50pLhQZj/20230824-201117.jpg",
         "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
         "brand": "X Y ZOME"
     },
     {
         "id": 2,
         "name": "Full Sleeve Tee",
-        "color": "BLUE",
-        "price": 23,
-        "imageUrl": "https://i.postimg.cc/TwKVhnsX/71d-FMe8x5g-L-AC-UY1100.jpg",
+        "color": "Green",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/pVGKk8f6/20230824-201318.jpg",
+        "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
+        "brand": "X Y ZOME"
+    },
+    {
+        "id": 3,
+        "name": "Full Sleeve Tee",
+        "color": "Pink",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/dVddqxzb/20230824-201458.jpg",
+        "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
+        "brand": "X Y ZOME"
+    },
+    {
+        "id": 4,
+        "name": "Full Sleeve Tee",
+        "color": "Creame",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/R0BtqTmN/20230824-201623.jpg",
+        "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
         "brand": "X Y ZOME"
     }
 ]
