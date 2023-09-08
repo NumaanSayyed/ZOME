@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Oversize",
+        "color": " Silver",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/NfR4stFq/Screenshot-20230824-203951-Instagram.jpg",
+        "desc": {
+            "name": "Men's Half T-shirt Cotton Blend (Bright Silver) Casual Wear Striped T-shirts Combo Pack Of 2",
+            "fabric": "Cotton Blend",
+            "sleeve_length": "Short Sleeves",
+            "net_quantity": 2,
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        "brand": "X Y ZOME"
+    },
+    {
+        "id": 2,
+        "name": "Oversize",
+        "color": "Bovine",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/DwgPGc1x/Screenshot-20230824-204012-Instagram.jpg",
+        "desc": {
+            "name": "Men's Half T-shirt Cotton Blend (Black And Gray) Casual Wear Striped T-shirts Combo Pack Of 2",
+            "fabric": "Cotton Blend",
+            "sleeve_length": "Short Sleeves",
+            "net_quantity": 2,
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        "brand": "X Y ZOME"
+    }
+]

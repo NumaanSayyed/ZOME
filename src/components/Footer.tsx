@@ -45,6 +45,7 @@ function Footer() {
                                         <li>
                                             <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" to={'/gallery'} onClick={bottomToTop}>Gallery</Link>
                                         </li>
+                                       
                                      
                                     </ul>
                                 </div>

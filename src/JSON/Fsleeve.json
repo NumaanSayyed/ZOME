@@ -34,5 +34,32 @@
         "imageUrl": "https://i.postimg.cc/R0BtqTmN/20230824-201623.jpg",
         "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
         "brand": "X Y ZOME"
+    },
+    {
+        "id": 5,
+        "name": "Full Sleeve Tee",
+        "color": "Golden Yellow",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/Pfc02yzk/Screenshot-20230824-150700-Instagram.jpg",
+        "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
+        "brand": "X Y ZOME"
+    },
+    {
+        "id": 6,
+        "name": "Full Sleeve Tee",
+        "color": "Cyprus and grey",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/pXF47jq5/Screenshot-20230824-150720-Instagram.jpg",
+        "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
+        "brand": "X Y ZOME"
+    },
+    {
+        "id": 7,
+        "name": "Full Sleeve Tee",
+        "color": "Golden Yellow",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/KjdVjcvY/Screenshot-20230824-150711-Instagram.jpg",
+        "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
+        "brand": "X Y ZOME"
     }
 ]

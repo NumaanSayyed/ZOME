@@ -7,10 +7,7 @@ export function Homepage() {
     "https://i.postimg.cc/Ssdry53C/Screenshot-2023-08-22-152107.png",
   ];
   const faq = [
-    {
-      "question": " Are your t-shirts available in different sizes?",
-      "answer": " Absolutely! Our t-shirts come in a range of sizes, from small to extra-large."
-    },
+   
     {
       "question": "Are t-shirts available in different sizes?",
       "answer": "  Absolutely! Our t-shirts come in a range of sizes, from small to extra-large. Check our Size Guide to find the perfect fit for you."
@@ -29,7 +26,7 @@ export function Homepage() {
     },
     {
       "question": " Are there any discounts for customers?",
-      "answer": " Yes, we offer a special discount on purchasing more than 5 Tees "
+      "answer": " Yes, we offer a 15% special discount on purchasing more than 5 Tees "
     },
 
   ];

@@ -10,13 +10,14 @@ import Terms from './components/Terms';
 import Gallery from './components/Gallery';
 import Oversize from './sub_components/Oversized';
 import Trend from './sub_components/Trend';
+import Backprint from './sub_components/Backprint';
 import Preview from './sub_components/Preview';
-
 function App() {
 
   return (
     <>
 <BrowserRouter>
+
 <Navbar />
         <Routes>
           <Route path='/' element={<Homepage />}/>
@@ -28,6 +29,7 @@ function App() {
           <Route path='/PrivacyPolicy' element={<PrivacyPolicy />}/>
           <Route path='/Trend' element={<Trend />}/>
           <Route path='/fullsleeve' element={<Full />}/>
+          <Route path='/Backprint' element={<Backprint />}/>
           <Route path='/Preview' element={<Preview />}/>
           
         </Routes>

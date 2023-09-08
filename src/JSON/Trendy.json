@@ -1,19 +1,123 @@
 [
+   
     {
         "id": 1,
-        "name": "Trendy Tee",
-        "color": "BLUE",
-        "price": 100,
-        "imageUrl": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-        "desc": "Indulge in the epitome of comfort and style with our meticulously crafted t-shirts. Each piece is a canvas of creativity, designed to seamlessly blend fashion with expression. Experience the soft embrace of premium fabrics that adorn you in effortless elegance. ",
+        "name": "Trendy",
+        "color": "Black",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/k4tz66xM/Screenshot-20230824-150750-Instagram.jpg",
+        "desc": {
+            "name": "Men's Half T-shirt Cotton Blend (Pink And Royalblue) Casual Wear Striped T-shirts Combo Pack Of 2",
+            "fabric": "Cotton ",
+            "sleeve_length": "fULL Sleeves",
+            "net_quantity": 2,
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
         "brand": "X Y ZOME"
     },
     {
         "id": 2,
-        "name": "Trendy Tee",
-        "color": "BLUE",
-        "price": 23,
-        "imageUrl": "https://i.postimg.cc/TwKVhnsX/71d-FMe8x5g-L-AC-UY1100.jpg",
+        "name": "Trendy",
+        "color": "Safety Orange",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/Kvq0fDXy/Done1.jpg",
+        "desc": {
+            "name": "Men's Half T-shirt Cotton Blend (Orange) Casual T-shirts",
+            "fabric": "Cotton ",
+            "sleeve_length": "fULL Sleeves",
+            "net_quantity": 2,
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        "brand": "X Y ZOME"
+    },
+    {
+        "id": 3,
+        "name": "Trendy",
+        "color": "Grey Olive",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/nzGkDvKg/Done2.jpg",
+        "desc": {
+            "name": "Men's Half T-shirt Cotton Blend (Creame) Casual T-shirts",
+            "fabric": "Cotton ",
+            "sleeve_length": "fULL Sleeves",
+            "net_quantity": 2,
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        "brand": "X Y ZOME"
+    },
+    {
+        "id": 4,
+        "name": "Trendy",
+        "color": "Bright Turquoise",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/xTCRXNXp/Done4.jpg",
+        "desc": {
+            "name": "Men's Half T-shirt Cotton Blend (Sky Blue) Casual T-shirts",
+            "fabric": "Cotton ",
+            "sleeve_length": "fULL Sleeves",
+            "net_quantity": 2,
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        "brand": "X Y ZOME"
+    },
+    {
+        "id": 5,
+        "name": "Trendy",
+        "color": "Pastel Green",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/76k9hBzS/Done5.jpg",
+        "desc": {
+            "name": "Men's Half T-shirt Cotton Blend (Light Green) Casual T-shirts",
+            "fabric": "Cotton ",
+            "sleeve_length": "fULL Sleeves",
+            "net_quantity": 2,
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        "brand": "X Y ZOME"
+    },
+    {
+        "id": 6,
+        "name": "Trendy",
+        "color": "Opal",
+        "price": 250,
+        "imageUrl": "https://i.postimg.cc/wTGkLxJq/Done3.jpg",
+        "desc": {
+            "name": "Men's Half T-shirt Cotton Blend (Off White) Casual T-shirts",
+            "fabric": "Cotton ",
+            "sleeve_length": "fULL Sleeves",
+            "net_quantity": 2,
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
         "brand": "X Y ZOME"
     }
 ]
