@@ -50,9 +50,10 @@ export function Homepage() {
             ))}
           </div>
         )}
+        placeholder={<div>Your placeholder content here</div>} 
       >
         {carouselImages.map((imageUrl, index) => (
-          <div key={index} className="h-[200px] md:h-[500px] w-full"> {/* Adjusted height for mobile */}
+          <div key={index} className="h-[200px] md:h-[500px] w-full">
             <img
               src={imageUrl}
               alt={`image ${index + 1}`}
@@ -61,6 +62,7 @@ export function Homepage() {
           </div>
         ))}
       </Carousel>
+
 
       {/* GALLERY COLLECTION  */}
       <div className="container px-5 mx-auto">
@@ -130,12 +132,7 @@ export function Homepage() {
                     Our satisfied services we provide to our customers,place your order by directly call us through call to action button.
                   </p>
                   <div className="mb-6 flex flex-wrap">
-                    <div className="mb-4 w-full md:w-4/12">
-                      <p className="flex">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="mr-3 h-5 w-5 text-neutral-900 dark:text-neutral-80">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>Support 24/7
-                      </p>
-                    </div>
+                    
                     <div className="mb-4 w-full md:w-4/12">
                       <p className="flex">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="mr-3 h-5 w-5 text-neutral-900 dark:text-neutral-80">
@@ -256,7 +253,7 @@ export function Homepage() {
                 <img src="https://i.postimg.cc/GtgP6srZ/Screenshot-2023-05-02-204001.png" className="rounded-full" alt="" />
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Ayan</h2>
+                <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Hamza</h2>
                 <p className="leading-relaxed text-base">I am thoroughly impressed with this website! The quality of the Men's T-shirts exceeded my expectations – each piece reflects true craftsmanship. The dedication to providing top-notch service is evident from start to finish. </p>
 
               </div>
@@ -270,7 +267,7 @@ export function Homepage() {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Mushtaq </h2>
+                <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Adan </h2>
                 <p className="leading-relaxed text-base">Five stars for impeccable product quality! The Men's T-shirts I ordered from this website are a true testament to excellence. The attention to detail, the comfort, and the durability have left me thoroughly impressed. I appreciate the commitment to delivering.</p>
 
               </div>

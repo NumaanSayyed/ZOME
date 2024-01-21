@@ -27,7 +27,7 @@ function Collection(props: CollectionProps) {
                 {products.map((product) => (
                     <Link to={'/preview'} state={{ from: product }} >
 
-                        <div key={product.id} className="group relative" onClick={bottomToTop}>
+                        <div key={product.id} className="group relative" onClick={bottomToTop} id={`product-${product.id}`}>
                             <div className="w-full flex justify-center">
                                 <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-full lg:h-80 overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75">
                                     <img
@@ -43,7 +43,7 @@ function Collection(props: CollectionProps) {
                                     <h3 className="text-sm text-gray-700">
                                         <a href="#">
                                             <span aria-hidden="true" className=" px-8 font-extrabold  inset-0" />
-                                            {product.name}
+                                            {product.name}  - {product.id}
                                         </a>
                                     </h3>
                                     <p className="mt-1 text-sm text-gray-500 px-16 ">{product.color}</p>

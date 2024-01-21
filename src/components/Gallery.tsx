@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
 interface GalleryItem {
   id: number;
   page: string;
@@ -8,6 +9,9 @@ interface GalleryItem {
 }
 
 function Gallery() {
+  // const shopCollectionButtonRef = useRef<HTMLAnchorElement | null>(null);
+
+
   const [jsonData, setJsonData] = useState<GalleryItem[]>([]);
 
   useEffect(() => {
@@ -100,7 +104,10 @@ function Gallery() {
 
                 <a
                   href="#collection"
+                  // id='collection'
                   className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+                  // ref={shopCollectionButtonRef}
+
                 >
                   Shop Collection
                 </a>

@@ -20,7 +20,7 @@ function Footer() {
                                 Find us on any of these platforms,our team will respond you as soon as possible.
                             </h5>
                             <div className="mt-6 lg:mb-0 mb-6">
-                             
+
                                 <a href="https://www.facebook.com/xyzome03?mibextid=ZbWKwL">
                                     <button className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
                                         <i className="fab fa-facebook-square"></i></button></a>
@@ -45,14 +45,14 @@ function Footer() {
                                         <li>
                                             <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" to={'/gallery'} onClick={bottomToTop}>Gallery</Link>
                                         </li>
-                                       
-                                     
+
+
                                     </ul>
                                 </div>
                                 <div className="w-full lg:w-4/12 px-4">
                                     <span className="block uppercase text-blueGray-500 text-sm font-bold mb-2">Other Resources</span>
                                     <ul className="list-unstyled">
-                                    
+
                                         <li>
                                             <Link to='/terms' className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" onClick={bottomToTop}>Terms & Condition</Link>
                                         </li>
@@ -61,7 +61,7 @@ function Footer() {
                                         </li>
                                         <li>
                                             <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" to={'/contact'}
-                                            onClick={bottomToTop}>Contact Us</Link>
+                                                onClick={bottomToTop}>Contact Us</Link>
                                         </li>
                                     </ul>
                                 </div>
